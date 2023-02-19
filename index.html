@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<form action="" class="form" id="form">
+
+			<h1>Create Account</h1>
+
+			<!--Grupo:Nombre-->
+			<div class="form-control">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre">
+				<i class="error-icon"> <img src="images/error-icon.svg"></i>
+				<i class="success-icon"> <img src="images/success-icon.svg"></i>
+			
+				<p>Mensaje error</p>
+			</div>
+
+			<!--Grupo:Email-->
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email">
+				<i class="error-icon"> <img src="images/error-icon.svg"></i>
+				<i class="success-icon"> <img src="images/success-icon.svg"></i>
+			
+				<p>Mensaje error</p>
+			</div>
+
+			<!--Grupo:Contraseña-->
+			<div class="form-control">
+				<label for="password">Clave</label>
+				<input type="password" name="password" id="password">
+				<i class="error-icon"> <img src="images/error-icon.svg"></i>
+				<i class="success-icon"> <img src="images/success-icon.svg"></i>
+			
+				<p>Mensaje error</p>
+			</div>
+
+			<!--Grupo:Contraseña 2-->
+			<div class="form-control">
+				<label for="password2">Confirme su clave</label>
+				<input type="password" name="password2" id="password2">
+				<i class="error-icon"> <img src="images/error-icon.svg"></i>
+				<i class="success-icon"> <img src="images/success-icon.svg"></i>
+			
+				<p>Mensaje error</p>
+			</div>
+
+			<button type="submit" class="formulario__btn" >ENVIAR</button>
+				
+		</form>
+	</div>
+
+	<script src="index.js"></script>
+	
+</body>
+</html>
